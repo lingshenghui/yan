@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>衡阳旅游网 - 首页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./images/logo.webp" alt="衡阳旅游网">
+            </a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="pages/attractions.html">景点介绍</a></li>
+                <li><a href="pages/food.html">美食指南</a></li>
+                <li><a href="pages/accommodation.html">住宿信息</a></li>
+                <li><a href="pages/transportation.html">交通指南</a></li>
+                <li><a href="pages/guide.html">旅游攻略</a></li>
+                <li><a href="pages/news.html">新闻资讯</a></li>
+                <li><a href="pages/about.html">关于我们</a></li>
+            </ul>
+        </nav>
+        <div class="user-area">
+            <a href="pages/login.html" class="login-btn">登录</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 轮播图部分 -->
+        <section class="banner-section">
+            <div class="banner-container">
+                <div class="banner-slides">
+                    <div class="slide active">
+                        <img src="./images/祝融峰.webp" alt="南岳衡山">
+                        <div class="slide-content">
+                            <h2>南岳衡山</h2>
+                            <p>五岳之中的南岳，闻名遐迩的佛教圣地</p>
+                            <a href="pages/attractions.html" class="banner-btn">立即探索</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/祝融峰.webp" alt="祝融峰">
+                        <div class="slide-content">
+                            <h2>祝融峰</h2>
+                            <p>南岳衡山最高峰，海拔1300.2米</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/nydm.webp" alt="南岳大庙">
+                        <div class="slide-content">
+                            <h2>南岳大庙</h2>
+                            <p>始建于唐代，香火鼎盛的道教圣地</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-dots"></div>
+                <button class="banner-prev">&#10094;</button>
+                <button class="banner-next">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- 快速导航区 -->
+        <section class="quick-nav">
+            <div class="container">
+                <div class="quick-nav-grid">
+                    <a href="pages/attractions.html" class="quick-nav-item">
+                        <i class="fas fa-mountain"></i>
+                        <span>景点门票</span>
+                    </a>
+                    <a href="pages/accommodation.html" class="quick-nav-item">
+                        <i class="fas fa-hotel"></i>
+                        <span>酒店预订</span>
+                    </a>
+                    <a href="pages/transportation.html" class="quick-nav-item">
+                        <i class="fas fa-bus"></i>
+                        <span>交通出行</span>
+                    </a>
+                    <a href="pages/guide.html" class="quick-nav-item">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span>旅游攻略</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 热门景点推荐 -->
+        <section class="attractions-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">热门景点</h2>
+                    <a href="pages/attractions.html" class="view-all">查看全部 <i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="attractions-grid">
+                    <div class="attraction-card">
+                        <div class="card-badge">热门</div>
+                        <img src="./images/祝融峰.webp" alt="南岳衡山">
+                        <div class="card-content">
+                            <h3>南岳衡山</h3>
+                            <p>五岳之一，风景秀丽，人文荟萃</p>
+                            <a href="pages/attractions.html#nanyue" class="btn-more">了解更多</a>
+                        </div>
+                    </div>
+                    <div class="attraction-card">
+                        <div class="card-badge">热门</div>
+                        <img src="./images/nydm.webp" alt="南岳大庙">
+                        <div class="card-content">
+                            <h3>南岳大庙</h3>
+                            <p>千年古刹，香火鼎盛</p>
+                            <a href="pages/attractions.html#damiao" class="btn-more">了解更多</a>
+                        </div>
+                    </div>
+                    <div class="attraction-card">
+                        <div class="card-badge">热门</div>
+                        <img src="./images/nydm.webp" alt="祝融峰">
+                        <div class="card-content">
+                            <h3>祝融峰</h3>
+                            <p>衡山之巅，云海奇观</p>
+                            <a href="pages/attractions.html#zhurong" class="btn-more">了解更多</a>
+                        </div>
+                    </div>
+                    <div class="attraction-card">
+                        <div class="card-badge">热门</div>
+                        <img src="./images/nydm.webp" alt="衡山风景">
+                        <div class="card-content">
+                            <h3>衡山风景区</h3>
+                            <div class="card-info">
+                                <span><i class="fas fa-map-marker-alt"></i> 衡山县</span>
+                                <span><i class="fas fa-ticket-alt"></i> ¥100起</span>
+                            </div>
+                            <p>国家5A级景区，自然人文景观荟萃</p>
+                            <a href="pages/attractions.html#hengshan" class="btn-more">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 特色体验 -->
+        <section class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">特色体验</h2>
+                    <p class="section-subtitle">探索衡阳独特的文化与自然体验</p>
+                </div>
+                <div class="experience-grid">
+                    <div class="experience-item large">
+                        <img src="./images/nydm.webp" alt="寺庙祈福">
+                        <div class="experience-content">
+                            <h3>寺庙祈福之旅</h3>
+                            <p>感受千年古刹的庄严与宁静</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <img src="./images/nydm.webp" alt="茶文化">
+                        <div class="experience-content">
+                            <h3>茶文化体验</h3>
+                            <p>品味衡山独特茶韵</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <img src="./images/nydm.webp" alt="登山徒步">
+                        <div class="experience-content">
+                            <h3>登山徒步</h3>
+                            <p>探索衡山自然美景</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 美食推荐升级版 -->
+        <section class="food-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">特色美食</h2>
+                    <a href="pages/food.html" class="view-all">更多美食 <i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="food-grid">
+                    <div class="food-card">
+                        <div class="food-image">
+                            <img src="./images/nydm.webp" alt="衡山米粉">
+                            <div class="food-tag">必吃</div>
+                        </div>
+                        <div class="food-content">
+                            <h3>衡山米粉</h3>
+                            <div class="food-info">
+                                <span><i class="fas fa-star"></i> 4.9</span>
+                                <span><i class="fas fa-comment"></i> 2.3k</span>
+                            </div>
+                            <p>地道的衡阳特色小吃，口感滑嫩</p>
+                            <div class="food-footer">
+                                <span class="price">¥12起</span>
+                                <a href="pages/food.html#mixian" class="btn-more">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-image">
+                            <img src="./images/nydm.webp" alt="茶油">
+                            <div class="food-tag">必吃</div>
+                        </div>
+                        <div class="food-content">
+                            <h3>衡山茶油</h3>
+                            <div class="food-info">
+                                <span><i class="fas fa-star"></i> 4.8</span>
+                                <span><i class="fas fa-comment"></i> 1.8k</span>
+                            </div>
+                            <p>纯天然野生山茶油，香味浓郁</p>
+                            <div class="food-footer">
+                                <span class="price">¥20起</span>
+                                <a href="pages/food.html#teayou" class="btn-more">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-image">
+                            <img src="./images/nydm.webp" alt="菜包子">
+                            <div class="food-tag">必吃</div>
+                        </div>
+                        <div class="food-content">
+                            <h3>衡阳菜包子</h3>
+                            <div class="food-info">
+                                <span><i class="fas fa-star"></i> 4.7</span>
+                                <span><i class="fas fa-comment"></i> 1.5k</span>
+                            </div>
+                            <p>传统特色小吃，外皮松软，内馅鲜美</p>
+                            <div class="food-footer">
+                                <span class="price">¥10起</span>
+                                <a href="pages/food.html#baozi" class="btn-more">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 旅游资讯 -->
+        <section class="news-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">旅游资讯</h2>
+                    <div class="news-tabs">
+                        <button class="tab-btn active">最新动态</button>
+                        <button class="tab-btn">活动预告</button>
+                        <button class="tab-btn">优惠信息</button>
+                    </div>
+                </div>
+                <div class="news-grid">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="./images/nydm.webp" alt="春节活动">
+                            <div class="news-category">活动</div>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-date">
+                                <span class="day">15</span>
+                                <span class="month">1月</span>
+                            </div>
+                            <h3>南岳衡山春节活动安排</h3>
+                            <p>春节期间南岳衡山将举办多项文化活动，包括祈福法会、民俗表演等精彩活动...</p>
+                            <div class="news-footer">
+                                <span><i class="fas fa-eye"></i> 1.2k</span>
+                                <a href="pages/news.html" class="btn-more">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="./images/nydm.webp" alt="旅游年卡">
+                            <div class="news-category">资讯</div>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-date">
+                                <span class="day">10</span>
+                                <span class="month">1月</span>
+                            </div>
+                            <h3>衡阳旅游年卡优惠政策</h3>
+                            <p>2024年衡阳旅游年卡新政策发布，景点联票更加优惠...</p>
+                            <div class="news-footer">
+                                <span><i class="fas fa-eye"></i> 800</span>
+                                <a href="pages/news.html" class="btn-more">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 旅游贴士 -->
+        <section class="tips-section">
+            <div class="container">
+                <h2 class="section-title">旅游贴士</h2>
+                <div class="tips-grid">
+                    <div class="tip-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>最佳游玩时间</h3>
+                        <p>春秋两季，气候宜人</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-map"></i>
+                        <h3>推荐行程</h3>
+                        <p>2-3天深度游玩</p>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-umbrella"></i>
+                        <h3>天气提醒</h3>
+                        <p>山区天气多变，请做好准备</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>关于我们</h3>
+                    <p>衡阳旅游网致力于为游客提供最全面的衡阳旅游资讯</p>
+                </div>
+                <div class="footer-column">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="pages/attractions.html">景点门票</a></li>
+                        <li><a href="pages/accommodation.html">酒店预订</a></li>
+                        <li><a href="pages/food.html">美食指南</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>联系方式</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> 0734-1234567</li>
+                        <li><i class="fas fa-envelope"></i> contact@hengyangtravel.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 湖南省衡阳市</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>关注我们</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 衡阳旅游网 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
